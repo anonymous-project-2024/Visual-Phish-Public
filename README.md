@@ -4,6 +4,7 @@ The repository contains major code and dataset to generate adversarial logo imag
 
 
 ## Usage
+We train the unconditional diffusion for each target phishing brand: 
 
 ### Train LogoMorph
 Using Bank of America (BOA) as an example, the example command to train the adversarial diffusion model image generator is given in examples/diffusion/train.sh. 
