@@ -7,9 +7,8 @@ Please note that this repository is under-construction. More polished code and e
 ## Usage
 We train the unconditional diffusion for each target phishing brand: 
 
-###2.1 Train LogoMorph
-Using Bank of America (BOA) as an example, the example command to train the adversarial diffusion model image generator is given in examples/diffusion/train.sh. 
+### 2.1 Train LogoMorph
+Using Bank of America (BOA) as an example, the example command to train the adversarial diffusion model image is given in experiments/diffusion/train.sh. The command to train LogoMorph using the \textbf{Blackbox} weights is in /experiments/diffusion/blackbox/train_b.sh. 
 
 ### 2.2 Sample Logo Images
 The example command to sample adversarial logo images from pretrained model weights is given in examples/diffusion/sample.sh. You can either train your own model or use our pretrained weights. Our pretrained weights will be uploaded later.  
-
